@@ -79,12 +79,12 @@ img {
 
 }
 
-.contenedor .sobreImagenn {
+.contenedor .sobreImagenes {
   position: absolute;
 
 }
 
-.sobreImagenn {
+.sobreImagenes {
   display: flex;
   margin-top: 40%;
   text-align: left;
@@ -96,4 +96,13 @@ img {
   padding-left: 80%;
   width: 10%;
   height: 20%;
+  filter: invert(100%);
+}
+
+.icon2 {
+  position: absolute;
+  padding-left: 80%;
+  width: 10%;
+  height: 20%;
+  filter: invert(18%) sepia(97%) saturate(7485%) hue-rotate(357deg) brightness(107%) contrast(109%);
 }
