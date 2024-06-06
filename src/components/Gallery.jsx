@@ -4,7 +4,7 @@ import svg from '../assets/icons/heart-filled.svg'
 import { Contexto } from '../Context'
 
 const Gallery = () => {
- const {ImagenesSmall, setImagenesSmall, selectedImages, setSelectedImages} = useContext(Contexto)
+ const {ImagenesSmall, setImagenesSmall} = useContext(Contexto)
 
     const dataFromJson = async () => {
       const response = await axios.get('/photos.json')
